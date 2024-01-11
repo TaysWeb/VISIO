@@ -9,10 +9,12 @@
 </head>
 <body>
 <div class="container">
+  <!-- header -->
+
     <header class="header">
-    <div class="navbar-items">
-     <nav>
-      <li class="logo"><svg width="200" height="150" viewBox="0 0 2484 1614" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+      <!-- logo -->
+      <a href="#" class="logo"><svg width="200" height="150" viewBox="0 0 2484 1614" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <path d="M2301.58 566.452H58.2188V1443.29H2301.58V566.452Z" fill="white"/>
         <path d="M917.916 733.284H613.237V1200.8H917.916V733.284Z" fill="url(#pattern0)"/>
         <path d="M1416.66 733.284H991.659V1200.8H1416.66V733.284Z" fill="url(#pattern1)"/>
@@ -42,16 +44,23 @@
         <image id="image4_2_2" width="117" height="109" xlink:href="data:image/png;base64,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"/>
         </defs>
         </svg>
-        </li>
-      <li class="menu">
-        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="50px" height="50px"><path d="M2 11H22V13H2zM2 5H22V7H2zM2 17H22V19H2z"/></svg>
-      </li>
-     </nav>
+      </a>
+
+      <div class="menu">
+      <button class="menu-icon">
+        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="100px" height="50px"><path d="M2 11H22V13H2zM2 5H22V7H2zM2 17H22V19H2z"/></svg>
+      </button>
     </div>
+
+    
+    
+  
     </header>
 
 
-</div>
+  </div>
+
+
     <script src="./js/index.js"></script>
 </body>
 </html>

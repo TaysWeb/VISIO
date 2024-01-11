@@ -1,3 +1,10 @@
+:root{
+    --primary-color:  #0d00fd;
+    --secondary : rgb(11, 25, 34);
+    --accent : rgb(29, 150, 210);
+    --black: #000;
+    --white: #fff;
+}
 * {
     margin:0;
     padding:0;
@@ -5,21 +12,22 @@
     list-style-type: none;
 }
 header {
+    overflow: hidden;
      height: 25vh;
      border:2px solid black;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 header .logo svg {
-    /* display:flex; */
     margin: 0 10px 0 30px;
 }
-.logo {
-    border:2px solid yellowgreen;
-    width: 30%;
-}
-header .menu  {
-    border: 3px solid orchid;
-    display:flex ;
-    margin-left: auto;
-    margin: 40px 0 0 50px;
+header .menu{
    
+}
+header .menu-icon svg {
+   border: 3px solid orchid;
+   display:inline-block;
+  
+ 
 }                                                                                                                                               

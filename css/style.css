@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+header {
+     height: 25vh;
+     border:2px solid black;
+}
+header .logo svg {
+    /* display:flex; */
+    margin: 0 10px 0 30px;
+}
+.logo {
+    border:2px solid yellowgreen;
+    width: 30%;
+}
+header .menu  {
+    border: 3px solid orchid;
+    display:flex ;
+    margin-left: auto;
+    margin: 40px 0 0 50px;
+   
+}                                                                                                                                               

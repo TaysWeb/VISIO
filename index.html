@@ -6,6 +6,7 @@
     <title>Visio | Phase 2 Test </title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="https://i.ibb.co/828WVwd/v.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container">
@@ -55,46 +56,148 @@
 
     </header>
 
-    <section claas="banner">
+    <section class="banner">
       <div class="blue-block">
         <h3>LOOK BEYOND THE ORDIANRY</h3>
       </div>
+      
 
       <div class="carousel-wrapper">
 
         <div class="coursel-slide slide" >
             <div class="content">
-                <img src="https://i.ibb.co/dcFcLF5/abstract-design-with-colorful-patterns-nature-leaf-generated-by-ai.jpg" alt="abstract-design-with-colorful-patterns-nature-leaf-generated-by-ai" width="600px"><br>
+                <img src="https://i.ibb.co/dcFcLF5/abstract-design-with-colorful-patterns-nature-leaf-generated-by-ai.jpg" alt="abstract-design-with-colorful-patterns-nature-leaf-generated-by-ai" width="600px" loading="lazy">
             </div>
         </div>
 
-        <div class="swiper-slide slide" style="background: url(images/bg1.jpg) no-repeat;">
+        <div class="swiper-slide slide" >
             <div class="content">
-                <h3>Doughn’t Worry, Be Happy!</h3>
-                <a href="#about" class="btn"> Get started </a>
+            <img src="https://i.ibb.co/ySdVJxL/birmingham-museums-trust-oe-Uzg8cz-Q3-Y-unsplash.jpg" alt="birmingham-museums-trust-oe-Uzg8cz-Q3-Y-unsplash" loading="lazy" >
             </div>
         </div>
 
-        <div class="swiper-slide slide" style="background: url(images/bg2.jpg) no-repeat;">
+        <div class="swiper-slide slide" >
             <div class="content">
-                <h3>Come and look at our buns</h3>
-                <a href="#gallery" class="btn"> Take a peek </a>
+            <img src="https://i.ibb.co/W6w6pxX/eric-terrade-0-WQOCx1g8hw-unsplash.jpg" alt="eric-terrade-0-WQOCx1g8hw-unsplash" loading="lazy">
             </div>
         </div>
 
     </div>
 
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-
-</div>
-      <div class="image">
-        <a href="https://ibb.co/FW2W02D"><img src="https://i.ibb.co/dcFcLF5/abstract-design-with-colorful-patterns-nature-leaf-generated-by-ai.jpg" alt="abstract-design-with-colorful-patterns-nature-leaf-generated-by-ai" border="0" width="1300px" height="600px">
-
+    <!-- <div class="swiper-button-next"><?xml version="1.0" standalone="no"?>
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+       "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+       width="124.000000pt" height="109.000000pt" viewBox="0 0 124.000000 109.000000"
+       preserveAspectRatio="xMidYMid meet">
+    
+      <g transform="translate(0.000000,109.000000) scale(0.100000,-0.100000)"
+      fill="#000000" stroke="none">
+      <path d="M620 1080 c-120 -15 -205 -57 -300 -147 -55 -51 -79 -84 -110 -147
+      -22 -45 -42 -98 -46 -118 l-6 -38 106 0 c89 0 106 3 106 15 0 29 41 97 86 142
+      68 68 141 97 239 98 71 0 88 -4 147 -33 77 -38 148 -110 174 -177 l17 -45 102
+      0 103 0 -15 58 c-53 205 -239 369 -445 391 -88 9 -75 -10 26 -41 164 -49 287
+      -145 346 -270 43 -91 42 -98 -25 -98 -59 0 -55 -3 -116 92 -50 77 -143 138
+      -246 159 -150 31 -322 -52 -401 -193 -29 -52 -46 -61 -108 -56 -35 3 -39 6
+      -36 28 4 38 48 120 93 172 57 68 148 124 248 154 47 15 95 35 106 45 11 11 17
+      18 15 18 -3 -1 -30 -5 -60 -9z"/>
+      <path d="M164 423 c12 -67 73 -181 128 -240 113 -120 236 -174 398 -174 119 0
+      175 12 264 59 130 68 233 197 269 335 l15 57 -103 0 -102 0 -17 -45 c-26 -67
+      -97 -139 -174 -177 -59 -29 -76 -33 -147 -32 -98 0 -172 30 -239 97 -45 45
+      -86 113 -86 142 0 12 -17 15 -106 15 l-106 0 6 -37z m200 -62 c110 -180 311
+      -247 490 -163 64 30 147 105 173 157 29 56 42 65 100 65 66 0 68 -10 16 -110
+      -65 -125 -183 -215 -343 -259 -40 -11 -78 -25 -85 -31 -9 -8 -22 -6 -46 4 -19
+      9 -65 24 -104 36 -122 35 -225 108 -287 202 -40 61 -71 135 -63 149 4 5 30 9
+      60 9 l54 0 35 -59z"/>
+      </g>
+      </svg>
       </div>
-      <div  class="black-block"  style ="border: 2px solid black ">
-        
+    <div class="swiper-button-prev"><?xml version="1.0" standalone="no"?>
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+       "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+       width="124.000000pt" height="109.000000pt" viewBox="0 0 124.000000 109.000000"
+       preserveAspectRatio="xMidYMid meet">
+   
+      <g transform="translate(0.000000,109.000000) scale(0.100000,-0.100000)"
+      fill="#000000" stroke="none">
+      <path d="M620 1080 c-120 -15 -205 -57 -300 -147 -55 -51 -79 -84 -110 -147
+      -22 -45 -42 -98 -46 -118 l-6 -38 106 0 c89 0 106 3 106 15 0 29 41 97 86 142
+      68 68 141 97 239 98 71 0 88 -4 147 -33 77 -38 148 -110 174 -177 l17 -45 102
+      0 103 0 -15 58 c-53 205 -239 369 -445 391 -88 9 -75 -10 26 -41 164 -49 287
+      -145 346 -270 43 -91 42 -98 -25 -98 -59 0 -55 -3 -116 92 -50 77 -143 138
+      -246 159 -150 31 -322 -52 -401 -193 -29 -52 -46 -61 -108 -56 -35 3 -39 6
+      -36 28 4 38 48 120 93 172 57 68 148 124 248 154 47 15 95 35 106 45 11 11 17
+      18 15 18 -3 -1 -30 -5 -60 -9z"/>
+      <path d="M164 423 c12 -67 73 -181 128 -240 113 -120 236 -174 398 -174 119 0
+      175 12 264 59 130 68 233 197 269 335 l15 57 -103 0 -102 0 -17 -45 c-26 -67
+      -97 -139 -174 -177 -59 -29 -76 -33 -147 -32 -98 0 -172 30 -239 97 -45 45
+      -86 113 -86 142 0 12 -17 15 -106 15 l-106 0 6 -37z m200 -62 c110 -180 311
+      -247 490 -163 64 30 147 105 173 157 29 56 42 65 100 65 66 0 68 -10 16 -110
+      -65 -125 -183 -215 -343 -259 -40 -11 -78 -25 -85 -31 -9 -8 -22 -6 -46 4 -19
+      9 -65 24 -104 36 -122 35 -225 108 -287 202 -40 61 -71 135 -63 149 4 5 30 9
+      60 9 l54 0 35 -59z"/>
+      </g>
+      </svg>
       </div>
+    <div class="swiper-button-prev"><?xml version="1.0" standalone="no"?>
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+       "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+       width="124.000000pt" height="109.000000pt" viewBox="0 0 124.000000 109.000000"
+       preserveAspectRatio="xMidYMid meet">
+   
+      <g transform="translate(0.000000,109.000000) scale(0.100000,-0.100000)"
+      fill="#000000" stroke="none">
+      <path d="M620 1080 c-120 -15 -205 -57 -300 -147 -55 -51 -79 -84 -110 -147
+      -22 -45 -42 -98 -46 -118 l-6 -38 106 0 c89 0 106 3 106 15 0 29 41 97 86 142
+      68 68 141 97 239 98 71 0 88 -4 147 -33 77 -38 148 -110 174 -177 l17 -45 102
+      0 103 0 -15 58 c-53 205 -239 369 -445 391 -88 9 -75 -10 26 -41 164 -49 287
+      -145 346 -270 43 -91 42 -98 -25 -98 -59 0 -55 -3 -116 92 -50 77 -143 138
+      -246 159 -150 31 -322 -52 -401 -193 -29 -52 -46 -61 -108 -56 -35 3 -39 6
+      -36 28 4 38 48 120 93 172 57 68 148 124 248 154 47 15 95 35 106 45 11 11 17
+      18 15 18 -3 -1 -30 -5 -60 -9z"/>
+      <path d="M164 423 c12 -67 73 -181 128 -240 113 -120 236 -174 398 -174 119 0
+      175 12 264 59 130 68 233 197 269 335 l15 57 -103 0 -102 0 -17 -45 c-26 -67
+      -97 -139 -174 -177 -59 -29 -76 -33 -147 -32 -98 0 -172 30 -239 97 -45 45
+      -86 113 -86 142 0 12 -17 15 -106 15 l-106 0 6 -37z m200 -62 c110 -180 311
+      -247 490 -163 64 30 147 105 173 157 29 56 42 65 100 65 66 0 68 -10 16 -110
+      -65 -125 -183 -215 -343 -259 -40 -11 -78 -25 -85 -31 -9 -8 -22 -6 -46 4 -19
+      9 -65 24 -104 36 -122 35 -225 108 -287 202 -40 61 -71 135 -63 149 4 5 30 9
+      60 9 l54 0 35 -59z"/>
+      </g>
+      </svg>
+      </div>
+
+   
+      <div  class="black-block"  ><?xml version="1.0" standalone="no"?>
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+         "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+         width="124.000000pt" height="109.000000pt" viewBox="0 0 124.000000 109.000000"
+         preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,109.000000) scale(0.100000,-0.100000)"
+        fill="#000000" stroke="none">
+        <path d="M620 1080 c-120 -15 -205 -57 -300 -147 -55 -51 -79 -84 -110 -147
+        -22 -45 -42 -98 -46 -118 l-6 -38 106 0 c89 0 106 3 106 15 0 29 41 97 86 142
+        68 68 141 97 239 98 71 0 88 -4 147 -33 77 -38 148 -110 174 -177 l17 -45 102
+        0 103 0 -15 58 c-53 205 -239 369 -445 391 -88 9 -75 -10 26 -41 164 -49 287
+        -145 346 -270 43 -91 42 -98 -25 -98 -59 0 -55 -3 -116 92 -50 77 -143 138
+        -246 159 -150 31 -322 -52 -401 -193 -29 -52 -46 -61 -108 -56 -35 3 -39 6
+        -36 28 4 38 48 120 93 172 57 68 148 124 248 154 47 15 95 35 106 45 11 11 17
+        18 15 18 -3 -1 -30 -5 -60 -9z"/>
+        <path d="M164 423 c12 -67 73 -181 128 -240 113 -120 236 -174 398 -174 119 0
+        175 12 264 59 130 68 233 197 269 335 l15 57 -103 0 -102 0 -17 -45 c-26 -67
+        -97 -139 -174 -177 -59 -29 -76 -33 -147 -32 -98 0 -172 30 -239 97 -45 45
+        -86 113 -86 142 0 12 -17 15 -106 15 l-106 0 6 -37z m200 -62 c110 -180 311
+        -247 490 -163 64 30 147 105 173 157 29 56 42 65 100 65 66 0 68 -10 16 -110
+        -65 -125 -183 -215 -343 -259 -40 -11 -78 -25 -85 -31 -9 -8 -22 -6 -46 4 -19
+        9 -65 24 -104 36 -122 35 -225 108 -287 202 -40 61 -71 135 -63 149 4 5 30 9
+        60 9 l54 0 35 -59z"/>
+        </g>
+        </svg>
+        </div> -->
+
     </section>
 
 

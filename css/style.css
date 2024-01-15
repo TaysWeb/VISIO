@@ -28,27 +28,49 @@ header .menu{
    float:right ;
 }      
 header .menu .menu-icon {
-    /* border: 3px solid yellow ; */
     display:inline-block;
     margin: 50px 80px 0 20px;
 }                                                                                                                     
-section .banner {
+section.banner {
     padding: 1.5rem 7%;
-    /* border: 2px solid green ; */
     display:grid ;
-    grid-template-columns: 1em auto 100px ;
+    grid-template-columns:repeat(2, 1fr , auto) ;
     border:1px solid red;
-   /* gap:  20px; */
+}
+ section .carousel-wrapper {
+    margin: 0 auto;
+     max-width: 600px;
+        height: 400px;
+        border: 3px solid yellow ;
+  }
+ section .slide {
+  /* min-width: 800px; */
+  max-width: 1000px;
+  /* background-size: cover; */
+  float: left;
+  margin: 0 20px;
+  border: 3px solid #fffdf6;
+  box-sizing: border-box;
+overflow: hidden;
+position: relative;
 
 }
- section .blue-block  {
+  /* section  .slide-image {  
+    width: 150vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+  }  */
+ /* section .blue-block  {
    width : 400px;
-   height: 50px;
+   height: 70px;
    background-color: var(--primary-color) ;
 } 
 section .blue-block h3 {
    color:var(--white) ;
     font-family: "Roboto", sans-serif;
     font-weight:500;
+}  */
 
-} 
+  

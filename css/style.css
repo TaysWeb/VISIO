@@ -53,16 +53,15 @@ section.banner {
   box-sizing: border-box;
 overflow: hidden;
 position: relative;
-
-}
-  /* section  .slide-image {  
+ }
+   section  .slide-image {  
     width: 150vw;
     height: 100vh;
     background-position: center;
     background-size: cover;
     display: inline-block;
-  }  */
- /* section .blue-block  {
+  }  
+  section .blue-block  {
    width : 400px;
    height: 70px;
    background-color: var(--primary-color) ;
@@ -71,6 +70,6 @@ section .blue-block h3 {
    color:var(--white) ;
     font-family: "Roboto", sans-serif;
     font-weight:500;
-}  */
+}  
 
   
